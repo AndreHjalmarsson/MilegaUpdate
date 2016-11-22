@@ -1,0 +1,174 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #4f5758;
+  font-family: 'Lato', sans-serif !important;
+}
+
+/*HEADER*/
+.header{
+    padding: 2vw;
+}
+
+.header .invitation{
+  float: right;
+  margin-bottom: 0;
+}
+
+.header .logo{
+height: 3.1vh;
+padding-left: 2vw;
+}
+
+.header .avatar{
+    float: right;
+}
+
+/*MAIN*/
+.main{
+  background-color: #4f5758;
+}
+
+.main .light-turq{
+    background-color: #b5d7d6;
+}
+
+.main .dark-blue{
+    background-color: #29749e;
+}
+
+.main .light-grey{
+    background-color: #cfcfcf;
+}
+
+.main-column{
+    height:78vh;
+}
+
+/*tabs styling*/
+
+.tab-container-left{
+    background:#fff;
+    padding: 0 10px 39px 10px;
+    height: 61vh;
+}
+
+.tab-container-right{
+    background:#b5d7d6;
+    height: 61vh;
+}
+
+.main a, .main p, .main h4{
+  color:#4f5758;
+}
+
+.main .nav-tabs{
+  border-bottom: 0;
+}
+
+
+/*list styling*/
+.main .inner-container{
+    width: 100%;
+    max-width: 520px;
+    margin:50px auto;
+}
+
+.goo-collapsible{
+    list-style: none;
+    font-family: 'HelveticaNeue', Arial, Helvetica, sans-serif;
+    font-size:14px;
+    padding-left: 0;
+}
+
+.goo-collapsible li {
+    border: 1px solid #4f5758;
+    border-top:0;
+    margin: 0;
+    background:#7ac2bb;
+}
+
+.goo-collapsible li:first-child{
+    border-top:1px solid #4f5758;
+}
+
+.goo-collapsible li a {
+    text-decoration:none;
+    color:#fff;
+    display:block;
+    padding:20px 42px;
+}
+
+.goo-collapsible li a span{
+  color:#fff;
+}
+
+.goo-collapsible li a:hover {
+    background: #b5d7d6;
+    text-decoration:none;
+}
+.goo-collapsible li ul {
+    list-style: none;
+    background: #b5d7d6;
+    display: none;
+    margin:0;
+    padding:0;
+}
+
+.goo-collapsible li ul li {
+    margin:0;
+    border:0;
+    border-bottom:1px solid #4f5758;
+ }
+
+.goo-collapsible li ul li:last-child {
+  border-bottom:0;
+}
+
+.goo-collapsible li ul li a {
+    padding: 5px 10px;
+    display: block;
+    padding-left: 33px;
+    background: #b5d7d6;
+  }
+
+.goo-collapsible li ul li a:hover {
+  background: #b5d7d6;
+}
+
+.goo-collapsible .dropdown > a { background: url('https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-down-01-128.png') no-repeat 420px center;
+background-size: 20px 20px;
+}
+
+
+.goo-collapsible .dropdown > a:hover { background: #F8F8F8 url('https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-down-01-128.png') no-repeat 420px center !important;
+background-size: 20px 20px !important;
+}
+
+.badge{
+    background-color: #e2464a !important;
+    margin-left: 1vw;
+}
+
+.news{
+    max-width: 38vw !important;
+}
+
+/*FOOTER*/
+.footer{
+  color:#4f5758;
+  padding: 2vw;
+}
+
+.footer .container{
+  text-align: center;
+}
+
+.footer p{
+    margin-bottom: 0;
+}
+
+.footer span{
+  text-transform: uppercase;
+}
