@@ -24,13 +24,14 @@
                         <div class="row">
                             <div class="col-md-10 ">
                                 <p class="invitation">
-                                    Hej, v&auml;lkommen tillbaka, <?php echo $_SESSION["firstname"]; ?>!
+                                    Hej, v&auml;lkommen tillbaka,
+                                    <?php echo $_SESSION["firstname"]; ?>!
                                     <br>
                                     <a href="logOut.php">Logga ut</a>
                                 </p>
                             </div>
                             <div class="col-md-2">
-                              <?php require("avatar.php"); ?>
+                                <?php require("avatar.php"); ?>
                                 <!-- <img class="img-responsive img-circle avatar" src="http://placehold.it/30x30" alt="avatar" /> -->
 
                             </div>
@@ -61,7 +62,7 @@
                                 <div class="tab-content">
                                     <div role="tabpanel" class="tab-pane  fade " id="1">
                                         <div class="tab-container-right">
-                                          <?php
+                                            <?php
                                           // require("questionPages/page_1.php");
                                            ?>
                                         </div>
@@ -71,62 +72,77 @@
                                             <!--slider  -->
                                             <div id="slider-outer">
 
-	<input type="radio" tabindex="-1" id="btn-goto-last" class="slide-check" name="slider" />
-	<input type="radio" tabindex="-1" id="btn-1" class="slide-check" name="slider" checked="checked" />
-	<input type="radio" tabindex="-1" id="btn-2" class="slide-check" name="slider" />
-	<input type="radio" tabindex="-1" id="btn-3" class="slide-check" name="slider" />
-	<input type="radio" tabindex="-1" id="btn-4" class="slide-check" name="slider" />
-	<input type="radio" tabindex="-1" id="btn-5" class="slide-check" name="slider" />
-	<input type="radio" tabindex="-1" id="btn-goto-first" class="slide-check" name="slider" />
+                                                <input type="radio" tabindex="-1" id="btn-goto-last" class="slide-check" name="slider" />
+                                                <input type="radio" tabindex="-1" id="btn-1" class="slide-check" name="slider" checked="checked" />
+                                                <input type="radio" tabindex="-1" id="btn-2" class="slide-check" name="slider" />
+                                                <input type="radio" tabindex="-1" id="btn-3" class="slide-check" name="slider" />
+                                                <input type="radio" tabindex="-1" id="btn-4" class="slide-check" name="slider" />
+                                                <input type="radio" tabindex="-1" id="btn-5" class="slide-check" name="slider" />
+                                                <input type="radio" tabindex="-1" id="btn-goto-first" class="slide-check" name="slider" />
 
-	<label for="btn-goto-last" id="arrow-goto-last" class="arrows" onclick="">&#9658;</label>
-	<label for="btn-1" id="arrow-1" class="arrows" onclick="">&#9658;</label>
-	<label for="btn-2" id="arrow-2" class="arrows" onclick="">&#9658;</label>
-	<label for="btn-3" id="arrow-3" class="arrows" onclick="">&#9658;</label>
-	<label for="btn-4" id="arrow-4" class="arrows" onclick="">&#9658;</label>
-	<label for="btn-5" id="arrow-5" class="arrows" onclick="">&#9658;</label>
-	<label for="btn-goto-first" id="arrow-goto-first" class="arrows" onclick="">&#9658;</label>
-  <div id="slider">
-		<div class="slides">
-		    <div tabindex="0">
-		    	<div>
-				<span class="title"><b>form namn</b></span>
-				<span class="num">(1/5)</span><br/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-		    	</div>
-		    </div>
-		    <div tabindex="0">
-		    	<div>
-				<span class="title"><b>form namn</b></span>
-				<span class="num">(2/5)</span><br/>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-		    	</div>
-		    </div>
-		    <div tabindex="0">
-		    	<div>
-				<span class="title"><b>form namn</b></span>
-				<span class="num">(3/5)</span><br/>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-		    	</div>
-		    </div>
-		    <div tabindex="0">
-		    	<div>
-				<span class="title"><b>form namn</b></span>
-				<span class="num">(4/5)</span><br/>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-		    	</div>
-		    </div>
-		    <div tabindex="0">
-		    	<div>
-            <span class="title"><b>namn</b></span>
-				<span class="num">(5/5)</span><br/>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-		    	</div>
-		    </div>
-		</div>
-	</div>
+                                                <label for="btn-goto-last" id="arrow-goto-last" class="arrows" onclick="">&#9658;</label>
+                                                <label for="btn-1" id="arrow-1" class="arrows" onclick="">&#9658;</label>
+                                                <label for="btn-2" id="arrow-2" class="arrows" onclick="">&#9658;</label>
+                                                <label for="btn-3" id="arrow-3" class="arrows" onclick="">&#9658;</label>
+                                                <label for="btn-4" id="arrow-4" class="arrows" onclick="">&#9658;</label>
+                                                <label for="btn-5" id="arrow-5" class="arrows" onclick="">&#9658;</label>
+                                                <label for="btn-goto-first" id="arrow-goto-first" class="arrows" onclick="">&#9658;</label>
+                                                <div id="slider">
+                                                    <div class="slides">
+                                                        <div tabindex="0">
+                                                            <div>
+                                                                <span class="title"><b>form namn</b></span>
+                                                                <span class="num">(1/5)</span><br/>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                                                    of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                                                                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+                                                                    of Lorem Ipsum.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div tabindex="0">
+                                                            <div>
+                                                                <span class="title"><b>form namn</b></span>
+                                                                <span class="num">(2/5)</span><br/>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                                                    of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                                                                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+                                                                    of Lorem Ipsum.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div tabindex="0">
+                                                            <div>
+                                                                <span class="title"><b>form namn</b></span>
+                                                                <span class="num">(3/5)</span><br/>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                                                    of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                                                                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+                                                                    of Lorem Ipsum.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div tabindex="0">
+                                                            <div>
+                                                                <span class="title"><b>form namn</b></span>
+                                                                <span class="num">(4/5)</span><br/>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                                                    of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                                                                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+                                                                    of Lorem Ipsum.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div tabindex="0">
+                                                            <div>
+                                                                <span class="title"><b>namn</b></span>
+                                                                <span class="num">(5/5)</span><br/>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                                                    of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                                                                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+                                                                    of Lorem Ipsum.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
-</div>
+                                            </div>
 
                                         </div>
                                     </div>
@@ -209,7 +225,7 @@
                                             </div>
                                             <div role="tabpanel" class="tab-pane  fade" id="chat">
                                                 <div class="tab-container-left">
-                                                  <?php
+                                                    <?php
                                                   require("writepost.php");
 
                                                   $uid = $_SESSION["userId"];

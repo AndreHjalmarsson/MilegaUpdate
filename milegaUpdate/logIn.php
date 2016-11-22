@@ -45,14 +45,13 @@ EOT;
     <title></title>
   </head>
   <body>
-    <h2>Log in</h2>
     <form action="logIn.php" method="POST">
-      <span>Username:</span> <input type="username" name="username" placeholder="Your name..." value="">
-      <span>Password:</span> <input type="password" name="password" placeholder="Your password..." value="">
+      <input style="color:#4f5758" type="text" name="username" placeholder="Username" value="">
+      <input style="color:#4f5758" type="password" name="password" placeholder="Password" value=""><br />
       <input type="checkbox" name="remember" id="rememberCheckbox">
-      <label for="rememberCheckbox">Remember me</label>
+      <label for="rememberCheckbox">Kom ih&aring;g mig</label>
       <br><br>
-      <input type="submit" value="Log in"><br><br>
+      <input class="btn" type="submit" value="Logga in"><br><br>
     </form>
   </body>
 </html>

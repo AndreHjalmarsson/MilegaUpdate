@@ -58,13 +58,36 @@ html, body {
 }
 
 .header .custom{
-    padding: 1.8vw 2.3vw 1vw;
-    background: #7ac2bb;
+  background: #7ac2bb;
+  text-align: center;
+  padding: 1vw 1vw;
 }
 
 .header .btn{
   text-transform: uppercase;
+  color:#fff;
   background: #29749e;
+  border: 0 solid #000000;
+  font-size: 1.3vw;
+  padding:1.3vw 4vw;
+}
+
+.header input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+
+.header input[type=checkbox], input[type=radio]{
+  margin-top: 20px;
+}
+
+.header input[type=text]{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.header input[type=text], .header input[type=password]{
+    padding:1vw 2vw;
+    font-size: 1.3vw;
 }
 
 .header .glyph{

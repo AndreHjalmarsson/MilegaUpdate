@@ -38,6 +38,7 @@
                                             <a href="#">kontakt</a>
                                         </li>
                                         <li><a href="#" data-toggle="modal" data-target=".login-modal-lg">login</a>
+                                            
                                             <!-- popup login -->
                                             <div class="modal fade login-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
                                                 <div class="modal-dialog modal-sm" role="document">
