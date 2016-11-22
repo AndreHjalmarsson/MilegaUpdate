@@ -7,13 +7,12 @@
   <body>
 
     <form action="register.php"method="POST">
-      <input type="text" name="regUsername" placeholder="Anv&auml;darnamn" value=""><br><br>
-      <input type="password" name="regPassword" placeholder="L&ouml;senord" value=""><br><br>
-      <input type="text" name="firstName" placeholder="F&ouml;rnamn" value=""><br><br>
-      <input type="text" name="lastName" placeholder="Efternamn" value=""><br><br>
-      <input type="text" name="email" placeholder="E-mejl" value=""><br><br>
-      <br><br>
-      <input type="submit" value="Registrera"><br><br>
+      <input type="text" name="regUsername" placeholder="Anv&auml;darnamn" value=""><br>
+      <input type="password" name="regPassword" placeholder="L&ouml;senord" value=""><br>
+      <input type="text" name="firstName" placeholder="F&ouml;rnamn" value=""><br>
+      <input type="text" name="lastName" placeholder="Efternamn" value=""><br>
+      <input type="text" name="email" placeholder="E-mejl" value=""><br>
+      <input class="btn"  type="submit" value="Registrera"><br>
     </form>
 
 
