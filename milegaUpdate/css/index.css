@@ -77,7 +77,18 @@ html, body {
 }
 
 .header input[type=checkbox], input[type=radio]{
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+/*make the size of the checkbox bigger*/
+.header input[type=checkbox]{
+  -ms-transform: scale(2); /* IE */
+ -moz-transform: scale(2); /* FF */
+ -webkit-transform: scale(2); /* Safari and Chrome */
+ -o-transform: scale(2); /* Opera */
+ position: absolute;
+  top: 165px;
+left: 50px;
 }
 
 .header input[type=text]{
@@ -88,6 +99,11 @@ html, body {
 .header input[type=text], .header input[type=password]{
     padding:1vw 2vw;
     font-size: 1.3vw;
+}
+
+.header .label-styling{
+    font-size: 1.3vw;
+    margin-top: 20px;
 }
 
 .header .glyph{

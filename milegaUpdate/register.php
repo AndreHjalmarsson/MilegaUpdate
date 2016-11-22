@@ -7,13 +7,13 @@
   <body>
 
     <form action="register.php"method="POST">
-      <span>Username:</span> <input type="username" name="regUsername" placeholder="Your name" value=""><br><br>
-      <span>Password:</span> <input type="password" name="regPassword" placeholder="Your password" value=""><br><br>
-      <span>First name:</span> <input type="text" name="firstName" placeholder="Your firstname" value=""><br><br>
-      <span>Last name:</span> <input type="text" name="lastName" placeholder="Your lastname" value=""><br><br>
-      <span>Email:</span> <input type="text" name="email" placeholder="Your email" value=""><br><br>
+      <input type="text" name="regUsername" placeholder="Anv&auml;darnamn" value=""><br><br>
+      <input type="password" name="regPassword" placeholder="L&ouml;senord" value=""><br><br>
+      <input type="text" name="firstName" placeholder="F&ouml;rnamn" value=""><br><br>
+      <input type="text" name="lastName" placeholder="Efternamn" value=""><br><br>
+      <input type="text" name="email" placeholder="E-mejl" value=""><br><br>
       <br><br>
-      <input type="submit" value="Sign Up"><br><br>
+      <input type="submit" value="Registrera"><br><br>
     </form>
 
 
