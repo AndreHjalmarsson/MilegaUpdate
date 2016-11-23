@@ -82,7 +82,7 @@ padding-left: 0;
 }
 
 .tab-container-right{
-    background:#b5d7d6;
+    background:#7ac2bb;
     height: 68vh;
 }
 
@@ -110,13 +110,17 @@ padding-left: 0;
   color:#e2464a;
 }
 
+.main .margin-left{
+    margin-left: 1.5vw;
+}
+
 /*list styling*/
 
 .goo-collapsible{
     list-style: none;
-    font-family: 'HelveticaNeue', Arial, Helvetica, sans-serif;
     font-size:14px;
     padding-left: 0;
+    padding-top: 7vh;
 }
 
 .goo-collapsible li {
@@ -142,6 +146,12 @@ padding-left: 0;
   color:#fff;
 }
 
+.goo-collapsible .glyphicon{
+  color:#687475;
+  font-size: 18px;
+  top: 4px;
+}
+
 .goo-collapsible li a:hover {
     background: #b5d7d6;
     text-decoration:none;
@@ -157,7 +167,6 @@ padding-left: 0;
 .goo-collapsible li ul li {
     margin:0;
     border:0;
-    border-bottom:1px solid #4f5758;
  }
 
 .goo-collapsible li ul li:last-child {
@@ -167,20 +176,22 @@ padding-left: 0;
 .goo-collapsible li ul li a {
     padding: 5px 10px;
     display: block;
-    padding-left: 33px;
-    background: #b5d7d6;
+    padding-left: 7vw;
+    background:#7ac2bb;
   }
 
 .goo-collapsible li ul li a:hover {
   background: #b5d7d6;
 }
 
-.goo-collapsible .dropdown > a { background: url('https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-down-01-128.png') no-repeat 420px center;
-background-size: 20px 20px;
+.goo-collapsible .dropdown > a {
+ background: url('https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-down-01-128.png') no-repeat 420px center;
+ background-size: 20px 20px;
 }
 
-.goo-collapsible .dropdown > a:hover { background: #F8F8F8 url('https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-down-01-128.png') no-repeat 420px center !important;
-background-size: 20px 20px !important;
+.goo-collapsible .dropdown > a:hover {
+  background: #b5d7d6 url('https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-down-01-128.png') no-repeat 420px center !important;
+  background-size: 20px 20px !important;
 }
 
 .badge{
@@ -198,11 +209,11 @@ background-size: 20px 20px !important;
     padding:1.25em
     }
 
+
 /* change padding to move arrows */
 #slider {
     display:block;
     overflow:hidden;
-    border:1px solid #ccc
 }
 
 #slider-outer .slide-check {
@@ -230,19 +241,17 @@ background-size: 20px 20px !important;
   position:absolute;
   display:none;
   z-index:9999;
-	bottom:1px;
+	bottom:-5vh;
   color:#fff;
-  background:#222;
+  background:#e2464a;
   width:2em;
   border-radius:2em;
-  border:3px solid #fff;
   cursor:pointer;
   box-shadow:0 0 0 1px rgb(153,153,153)
 	}
 
 #slider-outer .arrows:hover {
-  background:#666;
-  color:#222
+  background:#29749e;
 }
 
 /* define ids of checked buttons/arrows here */
@@ -252,7 +261,8 @@ background-size: 20px 20px !important;
 #btn-3:checked ~ #arrow-4,
 #btn-4:checked ~ #arrow-5,
 #btn-5:checked ~ #arrow-1 { /* last button always goes to #arrow-1 */
-	right:1px; display:block
+	right:16.5vw;
+  display:block
 	}
 
 /* define ids of checked buttons/arrows here - reposition/rotate '>' arrows to fake '<' arrows */
@@ -261,27 +271,29 @@ background-size: 20px 20px !important;
 #btn-4:checked ~ #arrow-3,
 #btn-5:checked ~ #arrow-4,
 #btn-1:checked ~ #arrow-5 { /* #btn-1 always goes to last arrow */
-	left:1px;
-    display:block;
-    -webkit-transform:scale(-1,1);
-    -ms-transform:scale(-1,1);
-    transform:scale(-1,1)
+  left:16.5vw;
+  display:block;
+  -webkit-transform:scale(-1,1);
+  -ms-transform:scale(-1,1);
+  transform:scale(-1,1)
 	}
 
 /* define ids of checked buttons/arrows here - (% increment per slide) - move slides when checked */
 #slider-outer #btn-1:checked ~ #slider .slides > div, #slider #btn-goto-first:checked ~ #slider .slides > div {
-    -webkit-transform:translate(0,0);
-    -ms-transform:translate(0,0);
-    transform:translate(0,0)
+  -webkit-transform:translate(0,0);
+  -ms-transform:translate(0,0);
+  transform:translate(0,0)
 }
 
 #slider-outer #btn-2:checked ~ #slider .slides > div {
-    -webkit-transform:translate(-100%,0); -ms-transform:translate(-100%,0);
-    transform:translate(-100%,0)
+  -webkit-transform:translate(-100%,0);
+  -ms-transform:translate(-100%,0);
+  transform:translate(-100%,0)
 }
 
 #slider-outer #btn-3:checked ~ #slider .slides > div {
- -webkit-transform:translate(-200%,0); -ms-transform:translate(-200%,0);
+ -webkit-transform:translate(-200%,0);
+ -ms-transform:translate(-200%,0);
  transform:translate(-200%,0)
 }
 
@@ -292,34 +304,45 @@ background-size: 20px 20px !important;
  }
 
 #slider-outer #btn-5:checked ~ #slider .slides > div, #slider #btn-goto-last:checked ~ #slider .slides > div {
-     -webkit-transform:translate(-400%,0); -ms-transform:translate(-400%,0);
+     -webkit-transform:translate(-400%,0);
+     -ms-transform:translate(-400%,0);
      transform:translate(-400%,0)
   }
 
+
+.arrows-link-container{
+    position: absolute;
+    bottom: -30px;
+    left: 179px;
+}
+
+.arrows-link-container a{
+  color:#fff;
+}
+
+.centered{
+    text-align: center;
+}
+
+.num, .title{
+    color:#eef2f2;
+}
+
 /* custom styles for slide content */
 #slider .slides > div:focus {
-    background:transparent
+    background:transparent;
 }
 
 #slider .slides > div > div {
-    font-size:0.875em; padding:1.25em 2em
+    font-size:0.875em;
+    padding:1.25em 2em;
 }
 
-#slider .slides img {
-    float:left; margin-top:0.25em; margin-right:1em
-}
 
 #slider .slides .title {
-    display:inline-block; margin-bottom:0.75em
+    display:inline-block;
+    margin-bottom:0.75em;
  }
-
-#slider .slides .num {
-    float:right; font-size:0.625em; color:#999
-}
-
-#slider .slides .more {
-    text-align:right; font-size:0.875em
-}
 
 @media ( max-width:30em ) {
 	#slider-outer {
@@ -334,25 +357,6 @@ background-size: 20px 20px !important;
     text-align:center
     }
 }
-
-<!--[if lt IE 9]>
-#slider-outer {
-  padding:0
-}
-
-#slider {
-  overflow-x:auto
-}
-
-#slider .slides > div {
-  margin-left:1px; margin-right:-1px; *position:static
-}
-#slider .slides > div > div {
-  border-right:1px solid #ccc
-}
-#slider .slides .num {
-  *margin-top:-2.75em }
-<![endif]-->
 
 /*FOOTER*/
 .footer{

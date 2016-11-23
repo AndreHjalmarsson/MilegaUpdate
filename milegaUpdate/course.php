@@ -86,52 +86,67 @@
                                                     <label for="btn-4" id="arrow-4" class="arrows" onclick="">&#9658;</label>
                                                     <label for="btn-5" id="arrow-5" class="arrows" onclick="">&#9658;</label>
                                                     <label for="btn-goto-first" id="arrow-goto-first" class="arrows" onclick="">&#9658;</label>
+                                                    <div class="arrows-link-container">
+                                                        <a  href="#">F&ouml;reg&aring;ende | </a>
+                                                        <a  href="#">N&auml;sta &ouml;vning</a>
+                                                    </div>
                                                     <div id="slider">
                                                         <div class="slides">
-                                                            <div tabindex="0">
+                                                            <div class="centered" tabindex="0">
                                                                 <div>
                                                                     <div class="progress">
-                                                                        <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
-                                                                            25%
+                                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                                                            100%
                                                                         </div>
                                                                     </div>
-                                                                    <span class="title"><b>JTI-profil</b></span><a class = "external-link" href="http://www.personality-tests.info/se/test.php">                  Testa h&auml;r</a>
-                                                                    <span class="num">(1/4)</span><br/>
-                                                                    <div class="img-container">
-                                                                        <img class="img-responsive" src="images/course/4.jpg" alt="jti types">
-                                                                    </div>
+                                                                    <span class="title"><b>I denna delövning skall du beskriva ditt uppdrag. Dvs inte bara din tjänstebeteckning utan <em>vad skall du åstadkomma i din roll, vilka är dina intressenter, vem förväntar sig vad av dig i din roll?</em></b></span>
+                                                                    <span class="num">(4/4)</span><br/>
+                                                                    <form class="uppdrag" action="index.html" method="post">
+                                                                        <label for="uppdrag">S&aring; h&auml;r tolkar jag mitt <strong>uppdrag</strong> som</label>
+                                                                        <input id="roll" type="text" name="roll" value=""><br>
+                                                                        <label for="stalle">i/p&aring;</label>
+                                                                        <input id="stalle" type="text" name="stalle" value=""><br>
+                                                                        <textarea id="uppdrag" name="uppdrag" rows="8" cols="40"></textarea>
+                                                                        <input type="submit" name="btn" value="Submit">
+                                                                    </form>
                                                                 </div>
                                                             </div>
-                                                            <div tabindex="0">
+                                                            <div class="centered" tabindex="0">
                                                                 <div>
                                                                     <div class="progress">
-                                                                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-                                                                            50%
+                                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                                                            100%
                                                                         </div>
                                                                     </div>
-                                                                    <span class="title"><b>Mina styrkor och utvecklingsomr&aring;den utifr&aring;n min JTI</b></span>
-                                                                    <span class="num">(2/4)</span><br/>
-                                                                    <form class="jit" action="index.html" method="post">
-                                                                        <label for="styrkor">Utifr&aring;n min analys har jag f&ouml;ljande <strong>styrkor</strong> som ledare: </label><br>
-                                                                        <textarea id="styrkor" name="styrkor" rows="8" cols="40"></textarea><br>
+                                                                    <span class="title"><b>I denna delövning skall du beskriva ditt uppdrag. Dvs inte bara din tjänstebeteckning utan <em>vad skall du åstadkomma i din roll, vilka är dina intressenter, vem förväntar sig vad av dig i din roll?</em></b></span>
+                                                                    <span class="num">(4/4)</span><br/>
+                                                                    <form class="uppdrag" action="index.html" method="post">
+                                                                        <label for="uppdrag">S&aring; h&auml;r tolkar jag mitt <strong>uppdrag</strong> som</label>
+                                                                        <input id="roll" type="text" name="roll" value=""><br>
+                                                                        <label for="stalle">i/p&aring;</label>
+                                                                        <input id="stalle" type="text" name="stalle" value=""><br>
+                                                                        <textarea id="uppdrag" name="uppdrag" rows="8" cols="40"></textarea>
                                                                         <input type="submit" name="btn" value="Submit">
-                                                                        </form>
+                                                                    </form>
                                                                 </div>
                                                             </div>
-                                                            <div tabindex="0">
+                                                            <div  tabindex="0">
                                                                 <div>
                                                                     <div class="progress">
-                                                                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-                                                                            75%
+                                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                                                            100%
                                                                         </div>
                                                                     </div>
-                                                                    <span class="title"><b>Mina styrkor och utvecklingsomr&aring;den utifr&aring;n min JTI</b></span>
-                                                                    <span class="num">(3/4)</span><br/>
-                                                                    <form class="jit" action="index.html" method="post">
-                                                                        <label for="svagheter">Utifr&aring;n min personliga analys har jag f&ouml;ljande <strong>svagheter//f&ouml;rb&auml;ttringsomr&aring;den</strong> som ledare: </label><br>
-                                                                        <textarea id="svagheter" name="svagheter" rows="8" cols="40"></textarea><br>
+                                                                    <span class="title"><b>I denna delövning skall du beskriva ditt uppdrag. Dvs inte bara din tjänstebeteckning utan <em>vad skall du åstadkomma i din roll, vilka är dina intressenter, vem förväntar sig vad av dig i din roll?</em></b></span>
+                                                                    <span class="num">(4/4)</span><br/>
+                                                                    <form class="uppdrag" action="index.html" method="post">
+                                                                        <label for="uppdrag">S&aring; h&auml;r tolkar jag mitt <strong>uppdrag</strong> som</label>
+                                                                        <input id="roll" type="text" name="roll" value=""><br>
+                                                                        <label for="stalle">i/p&aring;</label>
+                                                                        <input id="stalle" type="text" name="stalle" value=""><br>
+                                                                        <textarea id="uppdrag" name="uppdrag" rows="8" cols="40"></textarea>
                                                                         <input type="submit" name="btn" value="Submit">
-                                                                        </form>
+                                                                    </form>
                                                                 </div>
                                                             </div>
                                                             <div tabindex="0">
@@ -191,14 +206,14 @@
                                         <div class="tab-container-right">
                                             <ul class="goo-collapsible goo-coll-stacked">
 
-                                                <li class="dropdown"><a class='' href='#'><span class='number'>1.</span> M&aring;let med mitt ledarskap</a>
+                                                <li class="dropdown"><a href='#'><span class='number'>1.</span> M&aring;let med mitt ledarskap</a>
                                                 </li>
                                                 <li class="dropdown"><a href='#'><span class='number'>2.</span> Mina styrkor och utvecklingsomr&aring;den</a>
                                                     <ul>
-                                                        <li><a href='#'>Del&ouml;vning 1: JTI-profil</a></li>
-                                                        <li><a href='#'>Del&ouml;vning 2: Mitt uppdrag</a></li>
-                                                        <li><a href='#'>Del&ouml;vning 3a: Min ledarkompetens</a></li>
-                                                        <li><a href='#'>Del&ouml;vning 3b: Spegling av min ledarskap </a></li>
+                                                        <li><a href='#'><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Del&ouml;vning 1: JTI-profil</a></li>
+                                                        <li><a href='#'><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Del&ouml;vning 2: Mitt uppdrag</a></li>
+                                                        <li><a class="margin-left" href='#'>Del&ouml;vning 3a: Min ledarkompetens</a></li>
+                                                        <li><a class="margin-left" href='#'>Del&ouml;vning 3b: Spegling av min ledarskap </a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown"><a href='#'><span class='number'>3.</span> Medarbetar - feedback enligt 180-grader</a>
