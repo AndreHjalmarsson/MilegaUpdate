@@ -1,10 +1,3 @@
-
-<form action="writepost.php" method="POST">
-  <input type="hidden" name="action" value="createPost">
-  <textarea name="content" placeholder="What's going on? :)"></textarea>
-  <button type="submit">Share</button>
-</form>
-
 <?php
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
@@ -32,3 +25,9 @@ EOT;
 }
 
 ?>
+
+<form action="writepost.php" method="POST">
+  <input type="hidden" name="action" value="createPost">
+  <textarea name="content" placeholder="What's going on? :)"></textarea>
+  <button type="submit">Share</button>
+</form>
