@@ -11,7 +11,7 @@
       <input type="password" name="regPassword" placeholder="L&ouml;senord" value=""><br>
       <input type="text" name="firstName" placeholder="F&ouml;rnamn" value=""><br>
       <input type="text" name="lastName" placeholder="Efternamn" value=""><br>
-      <input type="text" name="email" placeholder="E-mejl" value=""><br>
+      <input type="text" name="email" placeholder="E-mail" value=""><br>
       <input class="btn"  type="submit" value="Registrera"><br>
     </form>
 

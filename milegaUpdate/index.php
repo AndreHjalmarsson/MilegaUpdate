@@ -38,7 +38,6 @@
                                             <a href="#">kontakt</a>
                                         </li>
                                         <li><a href="#" data-toggle="modal" data-target=".login-modal-lg">login</a>
-
                                             <!-- popup login -->
                                             <div class="modal fade login-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
                                                 <div class="modal-dialog modal-sm" role="document">
@@ -53,7 +52,9 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
                                         </li>
+
                                         <li>
                                             <a href="#" data-toggle="modal" data-target=".registration-modal-lg">registrera</a>
                                             <!-- popup registrera -->
@@ -72,6 +73,7 @@
                                                 </div>
                                             </div>
                                         </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -97,7 +99,7 @@
                         Ledare
                       </h1>
                             <h1><u>eller chef</u></h1>
-                            <h3>"Äkta utaminingen</h3>
+                            <h3>"Anta utaminingen</h3>
                             <h3>Vi ger dig verktygen</h3>
                             <h3>att n&aring; m&aring;let".</h3>
                         </div>
@@ -116,7 +118,7 @@
                     </div>
                     <div class="col-xs-4  col-sm-4 col-md-4 col-lg-4 center">
                         <div class="col-md-12 red padding">
-                            <a href="#contact">kontakter</a>
+                            <a href="#contact">kontakt</a>
                         </div>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 center no-padding">

@@ -17,8 +17,8 @@ html, body {
 }
 
 .header .logo{
-height:2.8vw;
-width:10vw;
+    height:2.8vw;
+    width:10vw;
 }
 
 .header .avatar{
@@ -39,6 +39,7 @@ width:10vw;
 .main{
     margin-bottom: 2vh;
 }
+
 .main .inner-container{
     width: 100%;
     max-width: 520px;
@@ -93,7 +94,6 @@ padding-left: 0;
 .main .nav-tabs{
   border-bottom: 0;
 }
-
 
 /*list styling*/
 
@@ -163,7 +163,6 @@ padding-left: 0;
 background-size: 20px 20px;
 }
 
-
 .goo-collapsible .dropdown > a:hover { background: #F8F8F8 url('https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-down-01-128.png') no-repeat 420px center !important;
 background-size: 20px 20px !important;
 }
@@ -172,7 +171,6 @@ background-size: 20px 20px !important;
     background-color: #e2464a !important;
     margin-left: 1vw;
 }
-
 
 /*Slider for exercises*/
 
@@ -218,7 +216,6 @@ background-size: 20px 20px !important;
 #slider-outer #btn-4:checked ~ #slider .slides > div { -webkit-transform:translate(-300%,0); -ms-transform:translate(-300%,0); transform:translate(-300%,0) }
 #slider-outer #btn-5:checked ~ #slider .slides > div, #slider #btn-goto-last:checked ~ #slider .slides > div { -webkit-transform:translate(-400%,0); -ms-transform:translate(-400%,0); transform:translate(-400%,0) }
 
-
 /* - #### custom styles for slide content - #### */
 #slider .slides > div:focus { background:#ffd }
 #slider .slides > div > div { font-size:0.875em; padding:1.25em 2em }
@@ -226,7 +223,6 @@ background-size: 20px 20px !important;
 #slider .slides .title { display:inline-block; margin-bottom:0.75em }
 #slider .slides .num { float:right; font-size:0.625em; color:#999 }
 #slider .slides .more { text-align:right; font-size:0.875em }
-
 
 @media ( max-width:30em ) { /* #### - make better use of space at 480px (480/16=30 - 16px being default browser font-size) - #### */
 	#slider-outer { font-size:0.9375em; line-height:1.5em; padding:0 0 1.125em 0 }
