@@ -38,7 +38,7 @@
                                             <a href="#">kontakt</a>
                                         </li>
                                         <li><a href="#" data-toggle="modal" data-target=".login-modal-lg">login</a>
-                                            
+
                                             <!-- popup login -->
                                             <div class="modal fade login-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
                                                 <div class="modal-dialog modal-sm" role="document">
@@ -267,12 +267,12 @@
                         <div class="col-xs-12 col-sm-12 col-md-6">
                             <p class="margin-bottom">
                                 Om du har fr&aring;gor om Milegareflex ber vi dig fylla i och skicka nedanst&aring;ende kontaktformul&auml;r s&aring; h&ouml;r vi av oss.
-                                <div class="field margin-bottom">
+                                <div class="field two-margins">
                                     <p class="text-muted">
                                         Namn
                                     </p>
                                 </div>
-                                <div class="field margin-bottom">
+                                <div class="field">
                                     <p class="text-muted">
                                         E-mail
                                     </p>
@@ -393,21 +393,16 @@
                                     <div class="item active">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <div class="media">
-                                                    <div class="media-left">
-                                                        <a href="#">
-                                                            <img class="media-object" src="images/landing/7.jpg" alt="...">
-                                                        </a>
+                                                <div class="slider-content-container">
+                                                    <div class="col-md-5">
+                                                        <img class="img-responsive" src="images/landing/7.jpg" alt="news avatar">
                                                     </div>
-                                                    <div class="media-body carousel-caption">
-                                                        <p class="media-heading">
+                                                    <div class="col-md-7">
+                                                        <p class="date">
                                                             2016-11-23
                                                         </p>
                                                         <p class="rubric">
                                                             Kurser
-                                                        </p>
-                                                        <p>
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                                         </p>
                                                         <p>
                                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -420,21 +415,16 @@
                                     <div class="item">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <div class="media">
-                                                    <div class="media-left">
-                                                        <a href="#">
-                                                            <img class="media-object" src="images/landing/7.jpg" alt="...">
-                                                        </a>
+                                                <div class="slider-content-container">
+                                                    <div class="col-md-5">
+                                                        <img class="img-responsive" src="images/landing/7.jpg" alt="news avatar">
                                                     </div>
-                                                    <div class="media-body carousel-caption">
-                                                        <p>
+                                                    <div class="col-md-7">
+                                                        <p class="date">
                                                             2016-11-23
                                                         </p>
                                                         <p class="rubric">
                                                             Kurser
-                                                        </p>
-                                                        <p>
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                                         </p>
                                                         <p>
                                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -447,14 +437,12 @@
                                     <div class="item">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <div class="media">
-                                                    <div class="media-left">
-                                                        <a href="#">
-                                                            <img class="media-object" src="images/landing/7.jpg" alt="...">
-                                                        </a>
+                                                <div class="slider-content-container">
+                                                    <div class="col-md-5">
+                                                        <img class="img-responsive" src="images/landing/7.jpg" alt="news avatar">
                                                     </div>
-                                                    <div class="media-body carousel-caption">
-                                                        <p>
+                                                    <div class="col-md-7">
+                                                        <p class="date">
                                                             2016-11-23
                                                         </p>
                                                         <p class="rubric">
@@ -463,10 +451,8 @@
                                                         <p>
                                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                                         </p>
-                                                        <p>
-                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                                        </p>
                                                     </div>
+                                                </div>
                                                 </div>
                                             </div>
                                         </div>

@@ -174,7 +174,7 @@ left: 50px;
 }
 
 .supporting-1 .supporting-2, .supporting-2, .supporting-4, .supporting-5{
-  padding: 6.4vw 1.8vw;
+  padding: 2.4vw 1.8vw;
 }
 
 .supporting-2 h1, .supporting-3 h1, .supporting-4 h1, .supporting-5 h1, .supporting-6 h1{
@@ -192,7 +192,7 @@ left: 50px;
 }
 
 .supporting-2 p, .supporting-3 p{
-  font-size: inherit;
+  font-size: 1.4vw;
 }
 
 .supporting-3 .container-fluid, .supporting-4 .container-fluid, .supporting-5 .container, .supporting-2 .container-fluid, .supporting-6 .container, .container-out, .supporting-8 .container, .footer .container{
@@ -233,12 +233,21 @@ left: 50px;
   vertical-align: middle;
 }
 
-.supporting-4 .margin-bottom, .supporting-8 .margin-bottom, .supporting-5 .margin-bottom{
+.supporting-4 .margin-bottom, .supporting-8 .margin-bottom{
     margin-bottom: 3.7vh;
 }
 
 .supporting-4, .supporting-6, .supporting-8{
     background-color: #eef2f2;
+}
+
+.supporting-5 .btn{
+    margin-top: 5vh;
+}
+
+.supporting-5 .two-margins{
+  margin-top: 4.5vh;
+  margin-bottom: 4.5vh;
 }
 
 .supporting-6, .supporting-8{
@@ -302,22 +311,28 @@ left: 50px;
   text-transform: uppercase;
 }
 
-.supporting-7 .carousel-caption{
-  text-align: left;
-  margin-left: 25vw;
-  bottom: -4.3vh;
+.supporting-7 .slider-content-container{
+  max-width: 800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .supporting-7 ol{
   margin-bottom: -7vh;
 }
 
-.supporting-7 .media-body{
-  width:30vw;
+.supporting-7 .date{
+    margin-top: 2.5vh;
 }
 
-.supporting-7 .media{
-  margin-left: 8vw;
+.supporting-7 p{
+    color:#fff;
+}
+
+.supporting-7 .carousel-inner{
+  height: 25vh;
 }
 
 .supporting-8 .container{
@@ -347,7 +362,7 @@ left: 50px;
   text-transform: uppercase;
   font-size: 6vw;
   color: #4f5758;
-  margin-top: 5.5vw;
+  margin-top: 2.4vw;
   margin-bottom: 2vw;
 }
 
