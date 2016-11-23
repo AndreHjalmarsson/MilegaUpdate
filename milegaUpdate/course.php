@@ -180,7 +180,7 @@
                                     <div class="col-md-12">
 
                                         <!-- Nav tabs -->
-                                        <ul class="nav nav-tabs" role="tablist">
+                                        <ul class="nav nav-pills" role="tablist">
                                             <li role="presentation"><a class="dark-blue" href="#news" aria-controls="home" role="tab" data-toggle="tab">nyheter</a></li>
                                             <li role="presentation"><a class="dark-blue" href="#reflection" aria-controls="profile" role="tab" data-toggle="tab">reflektion</a></li>
                                             <li role="presentation"><a class="dark-blue" href="#chat" aria-controls="home" role="tab" data-toggle="tab">chat<span class="badge">2</span></a></li>
@@ -202,7 +202,7 @@
                                             </div>
                                             <div role="tabpanel" class="tab-pane fade" id="reflection">
                                                 <div class="tab-container-left">
-
+                                                    <img src="images/course/3.png" alt="woman" class=" img-responsive img-thumbnail" />
                                                 </div>
                                             </div>
                                             <div role="tabpanel" class="tab-pane  fade" id="chat">
@@ -223,7 +223,22 @@
                                             </div>
                                             <div role="tabpanel" class="tab-pane fade" id="video">
                                                 <div class="tab-container-left">
+                                                <!-- <img src="images/course/2.png" alt="woman" class=" img-responsive img-thumbnail" /> -->
+                                                <div class="embed-responsive embed-responsive-16by9">
+  <iframe src="https://embed.ted.com/talks/roselinde_torres_what_it_takes_to_be_a_great_leader" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
 
+                                                <h4>
+                                                    What it takes to be a good leader?
+                                                </h4>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                </p>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                </p>
                                                 </div>
                                             </div>
                                         </div>

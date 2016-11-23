@@ -54,10 +54,6 @@ html, body {
     background-color: #29749e;
 }
 
-.main .light-grey{
-    background-color: #cfcfcf;
-}
-
 .main-column{
     height:78vh;
 }
@@ -93,6 +89,10 @@ padding-left: 0;
 
 .main .nav-tabs{
   border-bottom: 0;
+}
+
+.main .nav-pills a{
+    color:#fff;
 }
 
 /*list styling*/
