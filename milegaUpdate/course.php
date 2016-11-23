@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="img-responsive logo" src="images/course/logo_milega.png" alt="logo milega" />
+                        <img class="img-responsive logo" src="images/index/logo.png" alt="logo milega" />
                     </div>
                     <div class="col-md-6">
                         <div class="row">
