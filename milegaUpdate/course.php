@@ -26,7 +26,7 @@
                                 <p class="invitation">
                                     Hej, v&auml;lkommen tillbaka, <?php echo $_SESSION["firstname"]; ?>!
                                     <br>
-                                    <a href="profilePage.php">Profil</a>
+                                    <!-- <a href="profilePage.php">Profil</a> -->
                                 </p>
                             </div>
                             <div class="col-md-2">
@@ -152,9 +152,9 @@
                                         <div class="tab-container-right">
                                             <ul class="goo-collapsible goo-coll-stacked">
 
-                                                <li class="dropdown"><a class='' href='#'><span class='number'>1.</span> M&aring;let med ledarskap</a>
+                                                <li class="dropdown"><a class='' href='#'><span class='number'>1.</span> M&aring;let med mitt ledarskap</a>
                                                 </li>
-                                                <li class="dropdown"><a href='#'><span class='number'>2.</span> Mina styrlor och utvecklingsomr&aring;de</a>
+                                                <li class="dropdown"><a href='#'><span class='number'>2.</span> Mina styrkor och utvecklingsomr&aring;den</a>
                                                     <ul>
                                                         <li><a href='#'>Del&ouml;vning 1: JTI-profil</a></li>
                                                         <li><a href='#'>Del&ouml;vning 2: Mitt uppdrag</a></li>
@@ -162,11 +162,11 @@
                                                         <li><a href='#'>Del&ouml;vning 3b: Spegling av min ledarskap </a></li>
                                                     </ul>
                                                 </li>
-                                                <li class="dropdown"><a href='#'><span class='number'>3.</span> Medarbetar - feedback enligh 180 grader</a>
+                                                <li class="dropdown"><a href='#'><span class='number'>3.</span> Medarbetar - feedback enligt 180-grader</a>
                                                 </li>
                                                 <li class="dropdown"><a href='#'><span class='number'>4.</span> S&aring; h&auml;r ska det g&aring;r till</a></li>
                                                 <li class="dropdown"><a href='#'><span class='number'>5.</span> Mina &aring;taganden</a></li>
-                                                <li class="dropdown"><a href='#'><span class='number'>6.</span> S&aring; h&auml;r ska det g&aring;r till(forts&auml;tning)</a></li>
+                                                <li class="dropdown"><a href='#'><span class='number'>6.</span> S&aring; h&auml;r ska det g&aring;r till (forts&auml;ttning)</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -181,8 +181,8 @@
 
                                         <!-- Nav tabs -->
                                         <ul class="nav nav-tabs" role="tablist">
-                                            <li role="presentation"><a class="light-grey" href="#news" aria-controls="home" role="tab" data-toggle="tab">nyheter</a></li>
-                                            <li role="presentation"><a class="light-grey" href="#reflection" aria-controls="profile" role="tab" data-toggle="tab">reflektion</a></li>
+                                            <li role="presentation"><a class="dark-blue" href="#news" aria-controls="home" role="tab" data-toggle="tab">nyheter</a></li>
+                                            <li role="presentation"><a class="dark-blue" href="#reflection" aria-controls="profile" role="tab" data-toggle="tab">reflektion</a></li>
                                             <li role="presentation"><a class="dark-blue" href="#chat" aria-controls="home" role="tab" data-toggle="tab">chat<span class="badge">2</span></a></li>
                                             <li role="presentation"><a class="dark-blue" href="#video" aria-controls="profile" role="tab" data-toggle="tab">video</a></li>
                                         </ul>
