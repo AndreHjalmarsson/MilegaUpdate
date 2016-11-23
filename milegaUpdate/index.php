@@ -24,7 +24,7 @@
                         <div class="col-xs-6 col-sm-6 col-md-9 col-lg-9">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <img src="images/landing/logo.png" class="logo img-responsive">
+                                    <img src="images/index/logo.png" class="logo img-responsive">
                                 </div>
                                 <div class="col-xs-12  col-sm-12 col-md-10">
                                     <ul class="list-inline">
@@ -80,10 +80,10 @@
                         <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
                             <ul class="pull-right">
                                 <li>
-                                    <a href="#"><img class="glyph" src="images/landing/button_fb.svg" alt="fb" /></a>
+                                    <a href="#"><img class="glyph" src="images/index/button_fb.svg" alt="fb" /></a>
                                 </li>
                                 <li>
-                                    <a href="#"><img class="glyph" src="images/landing/button_linkedin.svg" alt="linkedin" /></a>
+                                    <a href="#"><img class="glyph" src="images/index/button_linkedin.svg" alt="linkedin" /></a>
                                 </li>
                             </ul>
                         </div>
@@ -140,7 +140,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 no-padding">
-                        <img class="img-responsive" src="images/landing/2.jpeg" alt="tutor" />
+                        <img class="img-responsive" src="images/index/2.jpeg" alt="tutor" />
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 article">
                         <p>
@@ -180,7 +180,7 @@
                         </p>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 no-padding">
-                        <img class="img-responsive" src="images/landing/3.jpg" alt="puzzle" />
+                        <img class="img-responsive" src="images/index/3.jpg" alt="puzzle" />
                     </div>
                 </div>
             </div>
@@ -202,7 +202,7 @@
                             <div class="media">
                                 <div class="media-left">
                                     <a href="#">
-                                        <img class="media-object" src="images/landing/4.png" alt="man">
+                                        <img class="media-object" src="images/index/4.png" alt="man">
                                     </a>
                                 </div>
                                 <div class="media-body">
@@ -219,7 +219,7 @@
                             <div class="media">
                                 <div class="media-left">
                                     <a href="#">
-                                        <img class="media-object" src="images/landing/4.png" alt="man">
+                                        <img class="media-object" src="images/index/4.png" alt="man">
                                     </a>
                                 </div>
                                 <div class="media-body">
@@ -236,7 +236,7 @@
                             <div class="media">
                                 <div class="media-left">
                                     <a href="#">
-                                        <img class="media-object" src="images/landing/4.png" alt="man">
+                                        <img class="media-object" src="images/index/4.png" alt="man">
                                     </a>
                                 </div>
                                 <div class="media-body">
@@ -308,7 +308,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-6 col-sm-6 col-md-3 article2">
-                        <img class="img-responsive" src="images/landing/6-1.jpg" alt="hans" />
+                        <img class="img-responsive" src="images/index/6-1.jpg" alt="hans" />
                         <p class="name">Hans</p>
                         <p>
                             hans@reflex.com
@@ -322,7 +322,7 @@
                         </p>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-3 article2">
-                        <img class="img-responsive" src="images/landing/6-2.jpg" alt="Lars" />
+                        <img class="img-responsive" src="images/index/6-2.jpg" alt="Lars" />
                         <p class="name">Lars</p>
                         <p>
                             Lars@reflex.com
@@ -336,7 +336,7 @@
                         </p>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-3 article2">
-                        <img class="img-responsive" src="images/landing/6-3.jpg" alt="cecilia" />
+                        <img class="img-responsive" src="images/index/6-3.jpg" alt="cecilia" />
                         <p class="name">Cecilia</p>
                         <p>
                             cecilia@reflex.com
@@ -350,7 +350,7 @@
                         </p>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-3 article2">
-                        <img class="img-responsive" src="images/landing/6-4.jpg" alt="per" />
+                        <img class="img-responsive" src="images/index/6-4.jpg" alt="per" />
                         <p class="name">Per</p>
                         <p>
                             per@reflex.com
@@ -395,7 +395,7 @@
                                             <div class="col-md-12">
                                                 <div class="slider-content-container">
                                                     <div class="col-md-5">
-                                                        <img class="img-responsive" src="images/landing/7.jpg" alt="news avatar">
+                                                        <img class="img-responsive" src="images/index/7.jpg" alt="news avatar">
                                                     </div>
                                                     <div class="col-md-7">
                                                         <p class="date">
@@ -417,7 +417,7 @@
                                             <div class="col-md-12">
                                                 <div class="slider-content-container">
                                                     <div class="col-md-5">
-                                                        <img class="img-responsive" src="images/landing/7.jpg" alt="news avatar">
+                                                        <img class="img-responsive" src="images/index/7.jpg" alt="news avatar">
                                                     </div>
                                                     <div class="col-md-7">
                                                         <p class="date">
@@ -439,7 +439,7 @@
                                             <div class="col-md-12">
                                                 <div class="slider-content-container">
                                                     <div class="col-md-5">
-                                                        <img class="img-responsive" src="images/landing/7.jpg" alt="news avatar">
+                                                        <img class="img-responsive" src="images/index/7.jpg" alt="news avatar">
                                                     </div>
                                                     <div class="col-md-7">
                                                         <p class="date">
