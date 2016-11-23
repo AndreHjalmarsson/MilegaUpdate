@@ -34,14 +34,11 @@ html, body {
 }
 
 /*MAIN*/
-.main{
-    margin-bottom: 2vh;
-}
 
 .main .inner-container{
     width: 100%;
     max-width: 520px;
-    margin:2vh auto;
+    margin:0 auto;
 }
 
 .main .light-turq{
@@ -53,7 +50,7 @@ html, body {
 }
 
 .main-column{
-    height:78vh;
+    height:76vh;
 }
 
 .main .no-side-padding{
@@ -261,7 +258,7 @@ padding-left: 0;
 #btn-3:checked ~ #arrow-4,
 #btn-4:checked ~ #arrow-5,
 #btn-5:checked ~ #arrow-1 { /* last button always goes to #arrow-1 */
-	right:16.5vw;
+	right:9.5vw;
   display:block
 	}
 
@@ -271,7 +268,7 @@ padding-left: 0;
 #btn-4:checked ~ #arrow-3,
 #btn-5:checked ~ #arrow-4,
 #btn-1:checked ~ #arrow-5 { /* #btn-1 always goes to last arrow */
-  left:16.5vw;
+  left:9.5vw;
   display:block;
   -webkit-transform:scale(-1,1);
   -ms-transform:scale(-1,1);
@@ -328,6 +325,17 @@ padding-left: 0;
     color:#eef2f2;
 }
 
+form{
+    margin-top: 2vh;
+}
+
+#slider .btn{
+  text-transform: uppercase;
+  background: #4f5758;
+  color: #fff;
+  margin-top: 2vh;
+}
+
 /* custom styles for slide content */
 #slider .slides > div:focus {
     background:transparent;
@@ -337,7 +345,6 @@ padding-left: 0;
     font-size:0.875em;
     padding:1.25em 2em;
 }
-
 
 #slider .slides .title {
     display:inline-block;
