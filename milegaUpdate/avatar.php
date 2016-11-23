@@ -22,10 +22,10 @@ function updateDatabase($db, $sql, $userID){
 }
 
 //show the avatar
-echo '<img src="avatars/'.usedAvatar($userID, $db).'" id="avatar" height="100" width="100" alt="Image not available" />' . "<br>";
+echo '<img class="img-circle img-responsive" src="avatars/'.usedAvatar($userID, $db).'" id="avatar" alt="Image not available" />' . "<br>";
 
 if (empty($_GET['ChangeAvatar'])) {
-echo '<a href="welcome.php?ChangeAvatar=pic">Byt profilbild</a>';
+echo '<a class = "btn position" href="welcome.php?ChangeAvatar=pic">Byt profilbild</a>';
 }
 
 //Choose new avatar

@@ -8,7 +8,7 @@ html, body {
 
 /*HEADER*/
 .header{
-    padding: 2vw;
+  padding: 2vw 2vw 0 2vw;
 }
 
 .header .invitation{
@@ -17,17 +17,32 @@ html, body {
 }
 
 .header .logo{
-height: 3.1vh;
-padding-left: 2vw;
+height:2.8vw;
+width:10vw;
 }
 
 .header .avatar{
     float: right;
 }
 
+.header .btn{
+
+}
+
+.header .position{
+    position: absolute;
+    top: 6vh;
+    right: 14.9vw;
+}
+
 /*MAIN*/
 .main{
-  background-color: #4f5758;
+    margin-bottom: 2vh;
+}
+.main .inner-container{
+    width: 100%;
+    max-width: 520px;
+    margin:2vh auto;
 }
 
 .main .light-turq{
@@ -46,17 +61,29 @@ padding-left: 2vw;
     height:78vh;
 }
 
+.main .no-left-padding{
+padding-left: 0;
+}
+
+.main .no-rigth-padding{
+  padding-right: 0;
+}
+
 /*tabs styling*/
 
 .tab-container-left{
     background:#fff;
-    padding: 0 10px 39px 10px;
-    height: 61vh;
+    height: 68vh;
+}
+
+.tab-container-left img{
+  border:0;
+  padding: 0;
 }
 
 .tab-container-right{
     background:#b5d7d6;
-    height: 61vh;
+    height: 68vh;
 }
 
 .main a, .main p, .main h4{
@@ -69,11 +96,6 @@ padding-left: 2vw;
 
 
 /*list styling*/
-.main .inner-container{
-    width: 100%;
-    max-width: 520px;
-    margin:50px auto;
-}
 
 .goo-collapsible{
     list-style: none;
@@ -151,12 +173,8 @@ background-size: 20px 20px !important;
     margin-left: 1vw;
 }
 
-.news{
-    max-width: 38vw !important;
-}
 
 /*Slider for exercises*/
-/* #### - slider css below - #### */
 
 #slider-outer { max-width:40em; margin:auto; position:relative; line-height:1.75em; padding:1.25em } /* change padding to move arrows */
 #slider { display:block; overflow:hidden; border:1px solid #ccc }
