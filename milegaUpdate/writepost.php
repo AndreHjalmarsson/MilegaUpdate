@@ -28,6 +28,6 @@ EOT;
 
 <form action="writepost.php" method="POST">
   <input type="hidden" name="action" value="createPost">
-  <textarea name="content" placeholder="What's going on? :)"></textarea>
+  <textarea name="content" rows="3" cols="70" placeholder="What's going on? :)"></textarea>
   <button type="submit">Share</button>
 </form>
