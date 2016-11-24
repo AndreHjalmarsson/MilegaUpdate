@@ -252,8 +252,31 @@
                                                   $getPostsResult = $getPosts->fetchAll();
 
                                                   foreach ($getPostsResult as $row) {
-                                                    echo '<img src="avatars/'.usedAvatar($userID, $db).'" id="avatar" height="50" width="50" alt="Image not available" />' . $_SESSION["firstname"] . "<br>";
-                                                    echo $row["content"] . '<br>' . $row["published"] . '<br><br>';
+                                                    echo '<div class = "row no-side-margin" >';
+                                                    echo '<div class = "col-md-3 centered">';
+                                                    echo '<br>';
+                                                    echo '<img class="img-circle" src="avatars/'.usedAvatar($userID, $db).'" id="avatar" height="50" width="50" alt="Image not available" />';
+                                                    echo '<br>';
+                                                    echo '<p>';
+                                                    echo $_SESSION["firstname"];
+                                                    echo '</p>';
+                                                    echo '<br>';
+                                                    echo '</div>';
+                                                    echo  '<div class = "col-md-9"> ' ;
+                                                    echo '<br>';
+                                                    echo '<p>';
+                                                    echo $row["content"];
+                                                    echo '</p>';
+                                                    echo '<br>';
+                                                    echo '<p>';
+                                                    echo $row["published"];
+                                                    echo '</p>';
+                                                    echo '</div>';
+                                                    echo '</div>';
+
+                                                    // echo '<img class="img-circle" src="avatars/'.usedAvatar($userID, $db).'" id="avatar" height="50" width="50" alt="Image not available" />' . $_SESSION["firstname"] . "<br>";
+                                                    // echo $row["content"] . '<br>' . $row["published"] . '<br><br>';
+
                                                   }
                                                    ?>
                                                 </div>

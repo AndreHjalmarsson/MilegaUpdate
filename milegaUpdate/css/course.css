@@ -58,6 +58,14 @@ html, body {
     padding-right: 0;
 }
 
+.main .no-side-margin{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2vh;
+    border: 1px solid #b5d7d6;
+    border-radius: 5px;
+}
+
 .main .no-left-padding{
 padding-left: 0;
 }
@@ -65,6 +73,7 @@ padding-left: 0;
 .main .no-rigth-padding{
   padding-right: 0;
 }
+
 
 /*tabs styling*/
 
@@ -81,6 +90,7 @@ padding-left: 0;
 .tab-container-right{
     background:#7ac2bb;
     height: 68vh;
+    border-radius: 5px;
 }
 
 .main a, .main p, .main h4{
@@ -93,6 +103,15 @@ padding-left: 0;
 
 .main .nav-pills a{
     color:#fff;
+}
+
+.main .nav-pills a:hover{
+  color:#4f5758;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background: #eee !important;
+  color:#4f5758 !important;
 }
 
 .main .no-right-padding{
@@ -110,6 +129,12 @@ padding-left: 0;
 .main .margin-left{
     margin-left: 1.5vw;
 }
+
+textarea{
+  border-radius: 5px;
+  border-color: #4f5758;
+}
+
 
 /*list styling*/
 
@@ -194,6 +219,7 @@ padding-left: 0;
 .badge{
     background-color: #e2464a !important;
     margin-left: 1vw;
+    color:#fff !important;
 }
 
 /*Slider for exercises*/
@@ -205,7 +231,6 @@ padding-left: 0;
     ine-height:1.75em;
     padding:1.25em
     }
-
 
 /* change padding to move arrows */
 #slider {
@@ -327,13 +352,21 @@ padding-left: 0;
 
 form{
     margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#slider .btn, form button{
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 2vh;
 }
 
 #slider .btn{
-  text-transform: uppercase;
-  background: #4f5758;
-  color: #fff;
-  margin-top: 2vh;
+  background:#4f5758;
+}
+
+form button{
+  background: #e2464a;
 }
 
 /* custom styles for slide content */
