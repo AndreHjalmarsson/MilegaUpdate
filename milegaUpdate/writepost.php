@@ -26,8 +26,8 @@ EOT;
 
 ?>
 
-<form action="writepost.php" method="POST">
+<form class = "centered" action="writepost.php" method="POST">
   <input type="hidden" name="action" value="createPost">
-  <textarea name="content" rows="3" cols="70" placeholder="What's going on? :)"></textarea>
-  <button type="submit">Share</button>
+  <textarea name="content" rows="3" cols="71" placeholder="What's going on? :)"></textarea>
+  <button class = "btn" type="submit">Share</button>
 </form>
