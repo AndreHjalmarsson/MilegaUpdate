@@ -22,4 +22,4 @@ function updateDatabase($db, $sql, $userID){
 }
 
 //show the avatar
-echo '<a href="#"><img src="avatars/'.usedAvatar($userID, $db).'" id="avatar" class="img-circle img-responsive" alt="Image not available" /></a>' . "<br>";
+echo '<a href="404.html"><img src="avatars/'.usedAvatar($userID, $db).'" id="avatar" class="img-circle img-responsive" alt="Image not available" /></a>' . "<br>";

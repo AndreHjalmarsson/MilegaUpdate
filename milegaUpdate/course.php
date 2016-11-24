@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="img-responsive logo" src="images/index/logo.png" alt="logo milega" />
+                        <a href="index.php"><img class="img-responsive logo" src="images/index/logo.png" alt="logo milega" /></a>
                     </div>
                     <div class="col-md-6">
                         <div class="row">

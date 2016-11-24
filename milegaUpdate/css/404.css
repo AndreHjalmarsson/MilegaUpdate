@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+  color: #fff !important;
+  font-family: 'Lato', sans-serif !important;
+  font-size: 2vw;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container{
+    height: 80vh;
+    width: 40vw !important;
+    text-align: center;
+}
+
+img{
+    height: 50%;
+}
+
+.advice{
+    color:#000;
+    font-weight: 800;
+}
+
+.margin-bottom{
+    margin-bottom: 5vh;
+}
